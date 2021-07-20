@@ -11,6 +11,7 @@ moment.locale(lang);
 //Dictionary
 var dict = {
 	apparentTitle: {
+		ja: "体感温度",
 		en: "Apparent",
 		de: "Gefühlt",
 		nl: "Schijnbare",
@@ -30,6 +31,7 @@ var dict = {
 		ca: "Aparent"
 	},
 	apparentDescription: {
+		ja: "Perceived temperature based on temperature, humidity, sun, and wind.",
 		en: "Perceived temperature based on temperature, humidity, sun, and wind.",
 		de: "Wahrgenommene Temperatur basierend auf Temperatur, Luftfeuchtigkeit, Sonne und Wind.",
 		nl: "Waargenomen temperatuur gebaseerd op de temperatuur, vochtigheid, zon en wind.",
@@ -49,6 +51,7 @@ var dict = {
 		ca: "Temperatura percebuda en funció de la temperatura, l'humitat, el sol i el vent."
 	},
 	temperatureTitle: {
+		ja: "気温",
 		en: "Temperature",
 		de: "Temperatur",
 		nl: "Temperatuur",
@@ -68,6 +71,7 @@ var dict = {
 		ca: "Temperatura"
 	},
 	temperatureDescription: {
+		ja: "Current air temperature.\nBlue: Low daily temperature.\nRed: High daily temperature.",
 		en: "Current air temperature.\nBlue: Low daily temperature.\nRed: High daily temperature.",
 		de: "Aktuelle Lufttemperatur.\nBlau: Min. Tagestemperatur.\nRot: Max. Tagestemperatur.",
 		nl: "Huidige luchttemperatuur. \nBlauw: Minimum dagelijkse temperatuur. \nRood: Maximum dagelijkse temperatuur.",
@@ -87,6 +91,7 @@ var dict = {
 		ca: "Temperatura de l'aire actual.\nBlau: temperatura diària mínima.\nVermell: temperatura diària màxima."
 	},
 	barometerSteady: {
+		ja: "Steady",
 		en: "Steady",
 		de: "gleichbleibend",
 		nl: "Bestendig",
@@ -125,6 +130,7 @@ var dict = {
 		ca: "Velocitat"
 	},
 	barometerTitle: {
+		ja: "気圧",
 		en: "Barometer",
 		de: "Barometer",
 		nl: "Barometer",
@@ -201,6 +207,7 @@ var dict = {
 		ca: "Quin fred se sent realment. Calculat combinant el calor y la velocitat del vent."
 	},
 	humidityTitle: {
+		ja: "湿度",
 		en: "Humidity",
 		de: "Luftfeuchtigkeit",
 		nl: "Vochtigheid",
@@ -239,6 +246,7 @@ var dict = {
 		ca: "La quantitat de vapor d'aigua en l'aire com a percentatge de la quantitat que l'aire es capaç de contenir."
 	},
 	moonSunRise: {
+		ja: "出",
 		en: "Rise",
 		de: "Aufgang",
 		nl: "Opkomst",
@@ -258,6 +266,7 @@ var dict = {
 		ca: "Sortida"
 	},
 	moonSunSet: {
+		ja: "入",
 		en: "Set",
 		de: "Untergang",
 		nl: "Ondergang",
@@ -277,6 +286,7 @@ var dict = {
 		ca: "Posta"
 	},
 	moonSunPhase: {
+		ja: "月相",
 		en: "Phase",
 		de: "Phase",
 		nl: "Fase",
@@ -296,6 +306,7 @@ var dict = {
 		ca: "Fase"
 	},
 	moonSunAge: {
+		ja: "月齢",
 		en: "Age",
 		de: "Alter",
 		nl: "Leeftijd",
@@ -315,6 +326,7 @@ var dict = {
 		ca: "Edat"
 	},
 	moonSunTitleSun: {
+		ja: "太陽",
 		en: "Sun",
 		de: "Sonne",
 		nl: "Zon",
@@ -334,6 +346,7 @@ var dict = {
 		ca: "Sol"
 	},
 	moonSunTitleMoon: {
+		ja: "月",
 		en: "Moon",
 		de: "Mond",
 		nl: "Maan",
@@ -429,6 +442,7 @@ var dict = {
 		ca: "Sense dades des de"
 	},
 	statusDataAt: {
+		ja: "観測日時",
 		en: "Latest data received at",
 		de: "Letzte Daten empfangen am",
 		nl: "Laatste data ontvangen op",
@@ -467,6 +481,7 @@ var dict = {
 		ca: "Vert: dades noves recopilades del servidor.\nGris: les dades del servidor no han canviat.\nGroc: alguns errors durant la recopilació de dades del servidor.\nVermell: no es poden recopilar dades del servidor."
 	},
 	rainfallTitle: {
+		ja: "降水量",
 		en: "Rainfall",
 		de: "Regen",
 		nl: "Regen",
@@ -486,6 +501,7 @@ var dict = {
 		ca: "Pluja"
 	},
 	rainfallDailyTitle: {
+		ja: "　日",
 		en: "Daily",
 		de: "Täglicher",
 		nl: "Vandaag",
@@ -505,6 +521,7 @@ var dict = {
 		ca: "Dia"
 	},
 	rainfallMonthlyTitle: {
+		ja: "　月",
 		en: "Monthly",
 		de: "Monatlicher",
 		nl: "Deze Maand",
@@ -524,6 +541,7 @@ var dict = {
 		ca: "Mensual"
 	},
 	rainfallAnnualTitle: {
+		ja: "　年",
 		en: "Annual",
 		de: "Jährlicher",
 		nl: "Jaar Totaal",
@@ -580,6 +598,7 @@ var dict = {
 		ca: "La intensitat de la radiació UV - 0-2 és un risc mínim de dany a la pell, mentre que 8+ és molt alta."
 	},
 	windDirectionLabelN: {
+		ja: "北",
 		en: "N",
 		de: "N",
 		nl: "N",
@@ -599,6 +618,7 @@ var dict = {
 		ca: "N"
 	},
 	windDirectionLabelNE: {
+		ja: "北東",
 		en: "NE",
 		de: "NO",
 		nl: "NO",
@@ -618,6 +638,7 @@ var dict = {
 		ca: "NE"
 	},
 	windDirectionLabelE: {
+		ja: "東",
 		en: "E",
 		de: "O",
 		nl: "O",
@@ -637,6 +658,7 @@ var dict = {
 		ca: "E"
 	},
 	windDirectionLabelSE: {
+		ja: "南東",
 		en: "SE",
 		de: "SO",
 		nl: "ZO",
@@ -656,6 +678,7 @@ var dict = {
 		ca: "SE"
 	},
 	windDirectionLabelS: {
+		ja: "南",
 		en: "S",
 		de: "S",
 		nl: "Z",
@@ -675,6 +698,7 @@ var dict = {
 		ca: "S"
 	},
 	windDirectionLabelSW: {
+		ja: "南西",
 		en: "SW",
 		de: "SW",
 		nl: "ZW",
@@ -694,6 +718,7 @@ var dict = {
 		ca: "SO"
 	},
 	windDirectionLabelW: {
+		ja: "西",
 		en: "W",
 		de: "W",
 		nl: "W",
@@ -713,6 +738,7 @@ var dict = {
 		ca: "O"
 	},
 	windDirectionLabelNW: {
+		ja: "北西",
 		en: "NW",
 		de: "NW",
 		nl: "NW",
@@ -751,6 +777,7 @@ var dict = {
 		ca: "La direcció del vent. La fletxa verda indica la direcció mitjana del vent."
 	},
 	windSpeedMax: {
+		ja: "最大",
 		en: "max",
 		de: "max",
 		nl: "Max",
@@ -770,6 +797,7 @@ var dict = {
 		ca: "màx"
 	},
 	windSpeedTitle: {
+		ja: "風速",
 		en: "Wind Speed",
 		de: "Windgeschwindigkeit",
 		nl: "Windsnelheid",
@@ -789,6 +817,7 @@ var dict = {
 		ca: "Velocitat del vent"
 	},
 	windSpeedWind: {
+		ja: "風速",
 		en: "Wind",
 		de: "Wind",
 		nl: "Wind",
@@ -865,6 +894,7 @@ var dict = {
 		ca: "La barra verda indica la velocitat mitjana del vent.\nporpra indica la velocitat del cop."
 	},
 	recordsHighTemp: {
+		ja: "最高気温",
 		en: "Highest temperature",
 		de: "Höchste Temperatur",
 		nl: "Hoogste temperatuur",
@@ -884,6 +914,7 @@ var dict = {
 		ca: "Temperatura més alta"
 	},
 	recordsLowTemp: {
+		ja: "最低気温",
 		en: "Lowest temperature",
 		de: "Niedrigste Temperatur",
 		nl: "Laagste temperatuur",
@@ -903,6 +934,7 @@ var dict = {
 		ca: "Temperatura més baixa"
 	},
 	recordsHighGust: {
+		ja: "最大瞬間風速",
 		en: "Highest gust",
 		de: "höchste Böe",
 		nl: "Sterkste vlaag",
@@ -922,6 +954,7 @@ var dict = {
 		ca: "Cop màxim"
 	},
 	recordsHighRainRate: {
+		ja: "最大降水量",
 		en: "Highest rain rate",
 		de: "höchste Regenrate",
 		nl: "Hoogste hoeveelheid regen",
@@ -941,6 +974,7 @@ var dict = {
 		ca: "Intensitat de pluja més alta"
 	},
 	recordsLowBaro: {
+		ja: "最低気圧",
 		en: "Lowest barometer",
 		de: "min. Luftdruck",
 		nl: "Laagste stand barometer",
@@ -960,6 +994,7 @@ var dict = {
 		ca: "Baròmetre más baix"
 	},
 	recordsHighBaro: {
+		ja: "最高気圧",
 		en: "Highest barometer",
 		de: "max. Luftdruck",
 		nl: "Hoogste stand barometer",
@@ -979,6 +1014,7 @@ var dict = {
 		ca: "Baròmetre més alt"
 	},
 	recordsHighRainRateDaily: {
+		ja: "最大日降水量",
 		en: "Highest daily rainfall",
 		de: "Höchster Tagesniederschlag",
 		nl: "Hoogste dagelijkse hoeveelheid regen",
@@ -998,6 +1034,7 @@ var dict = {
 		ca: "Pluja màxima diària"
 	},
 	recordsHighRainRateHourly: {
+		ja: "最大時間降水量",
 		en: "Highest hourly rainfall",
 		de: "Höchster stündlicher Niederschlag",
 		nl: "Hoogste hoeveelheid regen per uur",
@@ -1017,6 +1054,7 @@ var dict = {
 		ca: "Màxima precipitació per hora"
 	},
 	recordsHighAverageWind: {
+		ja: "最大風速",
 		en: "Highest average wind speed",
 		de: "Höchste durchschnittliche Windgeschwindigkeit",
 		nl: "Hoogste gemiddelde windsnelheid",
@@ -1245,6 +1283,7 @@ var dict = {
 		ca: "Mostrar-ne més"
 	},
 	graphMax: {
+		ja: "最高",
 		en: "Max",
 		de: "Max",
 		nl: "Max",
@@ -1264,6 +1303,7 @@ var dict = {
 		ca: "Màx"
 	},
 	graphMin: {
+		ja: "最低",
 		en: "Min",
 		de: "Min",
 		nl: "Min",
@@ -1379,6 +1419,7 @@ var dict = {
 		ca: "Mesos"
 	},
 	graphBaroLabel: {
+		ja: "気圧",
 		en: "Pressure",
 		de: "Luftdruck",
 		nl: "Luchtdruk",
@@ -1398,6 +1439,7 @@ var dict = {
 		ca: "Pressió"
 	},
 	graphHumidityLabel: {
+		ja: "湿度",
 		en: "Percent",
 		de: "Prozent",
 		nl: "Procent",
@@ -1455,6 +1497,7 @@ var dict = {
 		ca: "Index"
 	},
 	graphLabelWindDirection: {
+		ja: "風向",
 		en: "Wind Direction",
 		de: "Windrichtung",
 		nl: "Windrichting",
@@ -1474,6 +1517,7 @@ var dict = {
 		ca: "Direcció del vent"
 	},
 	buttonLabelGraphs: {
+		ja: "グラフ",
 		en: "Graphs",
 		de: "Grafik",
 		nl: "Grafieken",
@@ -1493,6 +1537,7 @@ var dict = {
 		ca: "Gràfics"
 	},
 	buttonLabelRecords: {
+		ja: "記録",
 		en: "Records",
 		de: "Rekorde",
 		nl: "Records",
@@ -1531,6 +1576,7 @@ var dict = {
 		ca: "Altitud"
 	},
 	recordsForMonth: {
+		ja: "今月の記録",
 		en: "Records for this month",
 		de: "Monatsrekorde",
 		nl: "Records voor deze maand",
@@ -1550,6 +1596,7 @@ var dict = {
 		ca: "Registres d'aquest mes"
 	},
 	recordsForYear: {
+		ja: "今年の記録",
 		en: "Records for this year",
 		de: "Rekorde dieses Jahr",
 		nl: "Records voor dit jaar",
@@ -1569,6 +1616,7 @@ var dict = {
 		ca: "Registres d'aquest any"
 	},
 	recordsAllTime: {
+		ja: "これまでの記録",
 		en: "All time records",
 		de: "Allzeitrekorde",
 		nl: "Records aller tijden",
@@ -1607,6 +1655,7 @@ var dict = {
 		ca: "Predicció"
 	},
 	heatIndexTitle: {
+		ja: "体感温度",
 		en: "Heat Index",
 		de: "Hitzeindex",
 		nl: "Hitte Index",
