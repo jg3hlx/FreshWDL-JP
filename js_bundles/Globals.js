@@ -31,7 +31,7 @@ var dict = {
 		ca: "Aparent"
 	},
 	apparentDescription: {
-		ja: "Perceived temperature based on temperature, humidity, sun, and wind.",
+		ja: "温度、湿度、太陽、風に基づく体感温度",
 		en: "Perceived temperature based on temperature, humidity, sun, and wind.",
 		de: "Wahrgenommene Temperatur basierend auf Temperatur, Luftfeuchtigkeit, Sonne und Wind.",
 		nl: "Waargenomen temperatuur gebaseerd op de temperatuur, vochtigheid, zon en wind.",
@@ -71,7 +71,7 @@ var dict = {
 		ca: "Temperatura"
 	},
 	temperatureDescription: {
-		ja: "Current air temperature.\nBlue: Low daily temperature.\nRed: High daily temperature.",
+		ja: "現在の気温。\n青：毎日の気温が低い。\n赤：毎日の気温が高い 。",
 		en: "Current air temperature.\nBlue: Low daily temperature.\nRed: High daily temperature.",
 		de: "Aktuelle Lufttemperatur.\nBlau: Min. Tagestemperatur.\nRot: Max. Tagestemperatur.",
 		nl: "Huidige luchttemperatuur. \nBlauw: Minimum dagelijkse temperatuur. \nRood: Maximum dagelijkse temperatuur.",
@@ -91,7 +91,7 @@ var dict = {
 		ca: "Temperatura de l'aire actual.\nBlau: temperatura diària mínima.\nVermell: temperatura diària màxima."
 	},
 	barometerSteady: {
-		ja: "Steady",
+		ja: "安定 ",
 		en: "Steady",
 		de: "gleichbleibend",
 		nl: "Bestendig",
@@ -111,6 +111,7 @@ var dict = {
 		ca: "Estable"
 	},
 	barometerRate: {
+		ja: "レート",
 		en: "Rate",
 		de: "Rate",
 		nl: "Trend",
@@ -150,6 +151,7 @@ var dict = {
 		ca: "Baròmetre"
 	},
 	barometerDescription: {
+		ja: "ステーションの高度に合わせて調整された空気の重量。",
 		en: "The weight of the air, adjusted for the station's altitude.",
 		de: "Der Luftdruck,angepasst an die Höhe der Station.",
 		nl: "Het gewicht van de lucht, aangepast naar de hoogte van het weerstation.",
@@ -169,6 +171,7 @@ var dict = {
 		ca: "El pes de l'aire, ajustat per a l'altitud de l'estació."
 	},
 	windchillTitle: {
+		ja: "風速冷却",
 		en: "Windchill",
 		de: "Windchill",
 		nl: "Gevoelstemperatuur",
@@ -188,6 +191,7 @@ var dict = {
 		ca: "Sensació"
 	},
 	windchillDescription: {
+		ja: "実際にどれだけ寒いのか。 熱と風速を組み合わせて計算されます。 ",
 		en: "How cold it actually feels. Calculated by combining heat and wind speed.",
 		de: "Gefühlte Kälte. Berechnet durch Kombination von Temperatur und Windgeschwindigkeit.",
 		nl: "Hoe koud het daadwerkelijk aanvoelt. Wordt berekend door een combinatie van temperatuur en windsnelheid.",
@@ -227,6 +231,7 @@ var dict = {
 		ca: "Humitat"
 	},
 	humidityDescription: {
+		ja: "空気が保持できる空気中の水蒸気の量（％）。",
 		en: "The amount of water vapour in the air as a percentage of the amount the air is capable of holding.",
 		de: "Die Menge an Wasserdampf in der Luft als Prozentsatz der Menge, die die Luft aufnehmen kann.",
 		nl: "De hoeveelheid verdampt water in de lucht als een percentage van de hoeveelheid lucht dat in staat is om vocht vast te houden.",
@@ -366,6 +371,7 @@ var dict = {
 		ca: "Lluna"
 	},
 	solarTitle: {
+		ja: "太陽",
 		en: "Solar",
 		de: "Solar",
 		nl: "Zonkracht",
@@ -385,6 +391,7 @@ var dict = {
 		ca: "Solar"
 	},
 	solarSunHours: {
+		ja: "Sun Hours",
 		en: "Sun Hours",
 		de: "Sonnenstunden",
 		nl: "Zonuren",
@@ -404,6 +411,7 @@ var dict = {
 		ca: "Hores de Sol"
 	},
 	solarDescription: {
+		ja: "太陽光の強さ ",
 		en: "The intensity of the sun's radiation.",
 		de: "Die Intensität der Sonnenstrahlung.",
 		nl: "De intensiteit van de straling van de zon.",
@@ -423,6 +431,7 @@ var dict = {
 		ca: "La intensitat de la radiació del Sol."
 	},
 	statusNoDataSince: {
+		ja: "それ以降のデータ無し",
 		en: "No data since",
 		de: "keine Daten seit",
 		nl: "Geen data sinds",
@@ -462,6 +471,7 @@ var dict = {
 		ca: "Últimes dades rebudes"
 	},
 	statusDescription: {
+		ja: "緑：サーバーから収集された新しいデータ。\n灰色：サーバー上のデータは変更されていません。\n黄色：サーバーからのデータ収集中にエラーが発生しました。\n赤：サーバーからデータを収集できません。 ",
 		en: "Green: New data collected from server.\nGrey: Data on server hasn't changed.\nYellow: Some error during data collection from server.\nRed: No data able to be collected from server.",
 		de: "Grün: Neue Daten vom Server.\nGrau: Die Daten auf dem Server haben sich nicht geändert.\nGelb: Einige Fehler bei der Datenerfassung vom Server.\nRot: Es können keine Daten vom Server erfasst werden.",
 		nl: "Groen: Nieuwe data ontvangen van server. \nGrijs: Data op server is niet veranderd. \nGeel: Een foutmelding tijdens de ontvangst van de data van de server. \nRood: Geen data beschikbaar om te ontvangen van de server.",
@@ -561,6 +571,7 @@ var dict = {
 		ca: "Anual"
 	},
 	uvTitle: {
+		ja: "UV",
 		en: "UV",
 		nl: "UV",
 		da: "UV",
