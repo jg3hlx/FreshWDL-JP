@@ -151,7 +151,7 @@ var dict = {
 		ca: "Baròmetre"
 	},
 	barometerDescription: {
-		ja: "ステーションの高度に合わせて調整された空気の重量。",
+		ja: "観測場所の高度に合わせて調整された空気の重量。",
 		en: "The weight of the air, adjusted for the station's altitude.",
 		de: "Der Luftdruck,angepasst an die Höhe der Station.",
 		nl: "Het gewicht van de lucht, aangepast naar de hoogte van het weerstation.",
@@ -411,7 +411,7 @@ var dict = {
 		ca: "Hores de Sol"
 	},
 	solarDescription: {
-		ja: "太陽光の強さ ",
+		ja: "太ワット毎平方メートルあたりに太陽から受ける放射エネルギーの量",
 		en: "The intensity of the sun's radiation.",
 		de: "Die Intensität der Sonnenstrahlung.",
 		nl: "De intensiteit van de straling van de zon.",
