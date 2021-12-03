@@ -371,7 +371,7 @@ var dict = {
 		ca: "Lluna"
 	},
 	solarTitle: {
-		ja: "放射照度",
+		ja: "日射量",
 		en: "Solar",
 		de: "Solar",
 		nl: "Zonkracht",
