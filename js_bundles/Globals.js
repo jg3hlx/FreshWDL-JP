@@ -411,7 +411,7 @@ var dict = {
 		ca: "Hores de Sol"
 	},
 	solarDescription: {
-		ja: "太ワット毎平方メートルあたりに太陽から受ける放射エネルギーの量",
+		ja: "ワット毎平方メートルあたりに太陽から受ける放射エネルギーの量",
 		en: "The intensity of the sun's radiation.",
 		de: "Die Intensität der Sonnenstrahlung.",
 		nl: "De intensiteit van de straling van de zon.",
@@ -590,6 +590,7 @@ var dict = {
 		ca: "UV"
 	},
 	uvDescription: {
+		ja: "紫外線の強度 - 0-2は皮膚の損傷のリスクを最小限に抑えますが、8+は非常に高いです。",
 		en: "The intensity of UV radiation - 0-2 is minimal risk of skin damage whilst 8+ is very high.",
 		de: "Die Intensität der UV-Strahlung - 0-2 ist ein minimales Risiko für Hautschäden, während 8+ sehr hoch ist.",
 		nl: "De intensiteit van de UV straling - 0-2 is een minimaal risico op huidschade terwijl 8+ een hoog risico vormt.",
@@ -769,6 +770,7 @@ var dict = {
 		ca: "NO"
 	},
 	windDirectionDescription: {
+		ja: "風向。緑の矢印は平均風向を示します。",
 		en: "The wind direction. Green arrow indicates average wind direction.",
 		de: "Die Windrichtung. Der grüne Pfeil zeigt die durchschnittliche Windrichtung an.",
 		nl: "De windrichting. De groene pijl geeft de gemiddelde windrichting aan.",
@@ -886,7 +888,7 @@ var dict = {
 		ca: "Mitjana"
 	},
 	windSpeedDescription: {
-		en: "Green bar indicates average wind speed.\nPurple bar indicates gust speed.",
+		en: "緑のバーは平均風速を示します。\n紫のバーは突風の速度を示します",
 		de: "Grüner Balken zeigt die durchschnittliche Windgeschwindigkeit an.\nvioletter Balken zeigt die Böengeschwindigkeit an.",
 		nl: "Groene balk geeft de gemiddelde windsnelheid aan. \nPaarse balk geeft de windsnelheid in vlagen aan.",
 		da: "Grøn bjælke angiver middelvind.\nLilla bjælke angiver vindstød.",
@@ -1085,6 +1087,7 @@ var dict = {
 		ca: "Velocitat mitjana del vent més alta"
 	},
 	recordsLowWindChill: {
+		ja: "最も低い風冷え",
 		en: "Lowest wind chill",
 		de: "min.gefühlte Tmperatur",
 		nl: "Laagste gevoelstemperatuur",
@@ -1104,6 +1107,7 @@ var dict = {
 		ca: "Sensació mínima"
 	},
 	recordsWarmestDay: {
+		ja: "最も暖かい日",
 		en: "Warmest day",
 		de: "Wärmster Tag",
 		nl: "Warmste dag",
@@ -1123,6 +1127,7 @@ var dict = {
 		ca: "Dia més calurós"
 	},
 	recordsColdestNight: {
+		ja: "最も寒い夜",
 		en: "Coldest night",
 		de: "kälteste Nacht",
 		nl: "Koudste nacht",
@@ -1142,6 +1147,7 @@ var dict = {
 		ca: "Nit més freda"
 	},
 	recordsColdestDay: {
+		ja: "最も寒い日",
 		en: "Coldest day",
 		de: "kältester Tag",
 		nl: "Koudste dag",
@@ -1161,6 +1167,7 @@ var dict = {
 		ca: "Dia més fred"
 	},
 	recordsWarmestNight: {
+		ja: "最も暖かい夜",
 		en: "Warmest night",
 		de: "wärmste Nacht",
 		nl: "Warmste nacht",
@@ -1180,6 +1187,8 @@ var dict = {
 		ca: "Nit més calurosa"
 	},
 	recordsHighHeatIndex: {
+		ja: "最大熱指数",
+		ja: "Highest heat index",
 		en: "Highest heat index",
 		de: "höchster Hitzeindex",
 		nl: "Hoogste warmte index",
@@ -1199,6 +1208,7 @@ var dict = {
 		ca: "Xafogor màxima"
 	},
 	recordsHighSolar: {
+		ja: "最大日射量",
 		en: "Highest solar",
 		de: "max.Solar",
 		nl: "Hoogste zonkracht",
@@ -1218,6 +1228,7 @@ var dict = {
 		ca: "Radiació solar màxima"
 	},
 	recordsHighUV: {
+		ja: "最大UV,
 		en: "Highest uv index",
 		de: "max.UV Index",
 		nl: "Hoogste uv index",
@@ -1237,6 +1248,7 @@ var dict = {
 		ca: "Index UV màxim"
 	},
 	recordsHighDewPoint: {
+		ja: "最高露点",
 		en: "Highest dew point",
 		de: "max.Taupunkt",
 		nl: "Hoogste dauwpunt",
@@ -1256,6 +1268,7 @@ var dict = {
 		ca: "Punt de rosada màxim"
 	},
 	recordsLowDewPoint: {
+		ja: "最低露点",
 		en: "Lowest dew point",
 		de: "min.Taupunkt",
 		nl: "Laagste dauwpunt",
@@ -1275,6 +1288,7 @@ var dict = {
 		ca: "Punt de rosada màxim"
 	},
 	forcastShowMore: {
+		ja: "Show More",
 		en: "Show More",
 		de: "zeige mehr",
 		nl: "Toon meer",
