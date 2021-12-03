@@ -171,7 +171,7 @@ var dict = {
 		ca: "El pes de l'aire, ajustat per a l'altitud de l'estació."
 	},
 	windchillTitle: {
-		ja: "体感温度",
+		ja: "風冷え",
 		en: "Windchill",
 		de: "Windchill",
 		nl: "Gevoelstemperatuur",
