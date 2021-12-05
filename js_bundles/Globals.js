@@ -391,7 +391,7 @@ var dict = {
 		ca: "Solar"
 	},
 	solarSunHours: {
-		ja: "Sun Hours",
+		ja: "日照時間",
 		en: "Sun Hours",
 		de: "Sonnenstunden",
 		nl: "Zonuren",
