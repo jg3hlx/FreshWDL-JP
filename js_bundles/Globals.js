@@ -1719,6 +1719,7 @@ var dict = {
 		ca: "El calor que realment se sent quan la humitat relativa es relaciona amb la temperatura de l'aire."
 	},
 	beaufortScaleTitle: {
+		ja: "風力階級",
 		en: "Beaufort Scale",
 		de: "Beaufort Skala",
 		nb: "Beaufort Skala",
