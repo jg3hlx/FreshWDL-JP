@@ -111,7 +111,7 @@ var dict = {
 		ca: "Estable"
 	},
 	barometerRate: {
-		ja: "レート",
+		ja: "変化",
 		en: "Rate",
 		de: "Rate",
 		nl: "Trend",
