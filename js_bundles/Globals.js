@@ -830,7 +830,7 @@ var dict = {
 		ca: "Velocitat del vent"
 	},
 	windSpeedWind: {
-		ja: "風速",
+		ja: "風",
 		en: "Wind",
 		de: "Wind",
 		nl: "Wind",
@@ -850,7 +850,7 @@ var dict = {
 		ca: "Vent"
 	},
 	windSpeedGust: {
-		en: "Gust",
+		en: "突風",
 		de: "Böen",
 		nl: "Vlaag",
 		da: "Stød",
@@ -904,7 +904,7 @@ var dict = {
 		fi: "Vihreä palkki ilmaisee keskimääräisen tuulen nopeuden.\nVioletti palkki ilmaisee puuskan nopeuden.",
 		sv: "Grön stapel indikerar genomsnittlig vind. \nLila stapel indikerar vindbyar.",
 		pt: "A barra verde indica a velocidade do vento média.\nA barra roxa indica a velocidade da rajada.",
-		ca: "La barra verda indica la velocitat mitjana del vent.\nporpra indica la velocitat del cop."
+		ca: "Labarra verda indica la velocitat mitjana del vent.\nporpra indica la velocitat del cop."
 	},
 	recordsHighTemp: {
 		ja: "最高気温",
