@@ -850,7 +850,8 @@ var dict = {
 		ca: "Vent"
 	},
 	windSpeedGust: {
-		en: "突風",
+		ja: "突風",
+		en: "Gust",
 		de: "Böen",
 		nl: "Vlaag",
 		da: "Stød",
@@ -869,6 +870,7 @@ var dict = {
 		ca: "Cop"
 	},
 	windSpeedAverage: {
+		ja: "Average",
 		en: "Average",
 		de: "Durchschnitt",
 		nl: "Gemiddeld",
@@ -888,7 +890,8 @@ var dict = {
 		ca: "Mitjana"
 	},
 	windSpeedDescription: {
-		en: "緑のバーは平均風速を示します。\n紫のバーは突風の速度を示します",
+		ja: "緑のバーは平均風速を示します。\n紫のバーは突風の速度を示します",
+		en: "Green bar indicates average wind speed.\nPurple bar indicates gust speed.",
 		de: "Grüner Balken zeigt die durchschnittliche Windgeschwindigkeit an.\nvioletter Balken zeigt die Böengeschwindigkeit an.",
 		nl: "Groene balk geeft de gemiddelde windsnelheid aan. \nPaarse balk geeft de windsnelheid in vlagen aan.",
 		da: "Grøn bjælke angiver middelvind.\nLilla bjælke angiver vindstød.",
@@ -1188,7 +1191,6 @@ var dict = {
 	},
 	recordsHighHeatIndex: {
 		ja: "最大熱指数",
-		ja: "Highest heat index",
 		en: "Highest heat index",
 		de: "höchster Hitzeindex",
 		nl: "Hoogste warmte index",
@@ -1349,6 +1351,7 @@ var dict = {
 	},
 	graphLast: {
 		//NOTE: these are used as in: Last XX days, or Last XX Hours, etc.en: "Last",
+		ja: "Last",
 		en: "Last",
 		de: "Letzte",
 		nl: "Laatste",
@@ -1368,6 +1371,7 @@ var dict = {
 		ca: "Últimes"
 	},
 	graphDays: {
+		ja: "Days",
 		en: "Days",
 		de: "Tage",
 		nl: "Dagen",
@@ -1387,6 +1391,7 @@ var dict = {
 		ca: "Dies"
 	},
 	graphHours: {
+		ja: "Hours",
 		en: "Hours",
 		de: "Stunden",
 		nl: "Uur",
@@ -1406,6 +1411,7 @@ var dict = {
 		ca: "Hores"
 	},
 	graphHour: {
+		ja: "Hour",
 		en: "Hour",
 		de: "Stunde",
 		nl: "Uur",
@@ -1425,6 +1431,7 @@ var dict = {
 		ca: "Hora"
 	},
 	graphMonths: {
+		ja: "Months",
 		en: "Months",
 		de: "Monate",
 		nl: "Maanden",
@@ -1484,6 +1491,7 @@ var dict = {
 		ca: "Percentatge"
 	},
 	graphSolarLabel: {
+		ja: "Irradiance",
 		en: "Irradiance",
 		de: "Solarstrahlung",
 		nl: "Instraling",
@@ -1503,6 +1511,7 @@ var dict = {
 		ca: "Radiació"
 	},
 	graphLabelUV: {
+		ja: "Index",
 		en: "Index",
 		de: "Index",
 		nl: "Index",
@@ -1582,6 +1591,7 @@ var dict = {
 		ca: "Rècords"
 	},
 	buttonLabelAltitude: {
+		ja: "Altitude",
 		en: "Altitude",
 		de: "Höhe",
 		nl: "Hoogte",
@@ -1700,6 +1710,7 @@ var dict = {
 		ca: "Xafogor"
 	},
 	heatIndexDescription: {
+		ja: "How hot it really feels when relative humidity is factored with the actual air temperature.",
 		en: "How hot it really feels when relative humidity is factored with the actual air temperature.",
 		de: "Wie es sich wirklich anfühlt, wenn die relative Luftfeuchtigkeit in Relation zur aktuellen Luftfeuchtigkeit steht.",
 		nl: "De warmte-index is een getal dat aangeeft hoe een mens gemiddeld een temperatuur in combinatie met een bepaalde vochtigheidsgraad beleeft, hoe hij of zij dit aanvoelt.",
