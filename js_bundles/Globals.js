@@ -1351,7 +1351,7 @@ var dict = {
 	},
 	graphLast: {
 		//NOTE: these are used as in: Last XX days, or Last XX Hours, etc.en: "Last",
-		ja: "Last",
+		ja: "過去",
 		en: "Last",
 		de: "Letzte",
 		nl: "Laatste",
@@ -1371,7 +1371,7 @@ var dict = {
 		ca: "Últimes"
 	},
 	graphDays: {
-		ja: "Days",
+		ja: "日間",
 		en: "Days",
 		de: "Tage",
 		nl: "Dagen",
@@ -1391,7 +1391,7 @@ var dict = {
 		ca: "Dies"
 	},
 	graphHours: {
-		ja: "Hours",
+		ja: "時間",
 		en: "Hours",
 		de: "Stunden",
 		nl: "Uur",
@@ -1411,7 +1411,7 @@ var dict = {
 		ca: "Hores"
 	},
 	graphHour: {
-		ja: "Hour",
+		ja: "1時間",
 		en: "Hour",
 		de: "Stunde",
 		nl: "Uur",
@@ -1431,7 +1431,7 @@ var dict = {
 		ca: "Hora"
 	},
 	graphMonths: {
-		ja: "Months",
+		ja: "か月",
 		en: "Months",
 		de: "Monate",
 		nl: "Maanden",
