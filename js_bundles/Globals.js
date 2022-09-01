@@ -1710,7 +1710,7 @@ var dict = {
 		ca: "Xafogor"
 	},
 	heatIndexDescription: {
-		ja: "How hot it really feels when relative humidity is factored with the actual air temperature.",
+		ja: "相対湿度と実際の気温を考慮した場合の実際の暑さ。",
 		en: "How hot it really feels when relative humidity is factored with the actual air temperature.",
 		de: "Wie es sich wirklich anfühlt, wenn die relative Luftfeuchtigkeit in Relation zur aktuellen Luftfeuchtigkeit steht.",
 		nl: "De warmte-index is een getal dat aangeeft hoe een mens gemiddeld een temperatuur in combinatie met een bepaalde vochtigheidsgraad beleeft, hoe hij of zij dit aanvoelt.",
